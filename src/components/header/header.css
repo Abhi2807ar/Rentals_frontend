@@ -1,0 +1,73 @@
+
+header{
+    width: 100%; 
+    height:auto; 
+    margin: auto; 
+    padding:15px 10px;
+    
+}
+header .headerSearch{
+    width: 100%;
+     height: 50px;
+      border: 2px solid #000000; 
+      padding: 11px 10px; 
+      margin-top: 18px;
+      border-radius: 30px;
+    
+    }
+header .headerSearch .selectDropWrapper{
+    width: 28%;
+     font-size: 16px;
+      font-weight:500; 
+      position: relative;
+      padding-right:30px;
+    }
+header .headerSearch .selectDropWrapper:after{
+    content: '';
+    width: 1px;
+     height: 30px; 
+     background: rgba(0, 0, 0, 0.5); 
+     position: absolute;
+     top: 0px; 
+     right:0px
+ }
+header .headerSearch .search{
+    width: 79%; 
+    padding-left: 25px; 
+    position :relative;
+}
+header .headerSearch .search input{width: 95%; 
+    height: 30px;
+     border: 0px;
+      outline: none !important;
+       font-size:18px;
+    }
+header .headerSearch .search .searchIcon{position:absolute;
+    top:0px;
+    right:2px; 
+    opacity: 0.7;
+    font-size:25px !important;
+}
+
+header .countryWrapper .selectDropWrapper{width:190px !important; border: 0px solid #000000;height: 30px;display:flex;align-items: center;  padding-left:10px; box-shadow: 0 3px 6px rgb(0 0 0 /10%); border-radius: 3px;}
+header .countryWrapper .selectDropWrapper .openSelect{width: 100%; }
+header .countryWrapper .selectDropWrapper .selectDrop{ top:50px;left:0px !important; width:auto;}
+header .countryWrapper .selectDropWrapper .openSelect{color:rgb(2, 110, 241) !important;}
+
+header .headerTabs li{padding-left: 40px;}
+header .headerTabs li{position:relative; margin-left: 35px; margin-top: 12px;}
+header .headerTabs li span{font-size:15px; }
+header .headerTabs li span img{margin-right: 20px;}
+header .headerTabs li span.badge{width:27px;height:23px; color: #fff;font-weight:400; position: absolute;top:-10px;left:60px;}
+.dropdownMenu { position:absolute; top:40px;left:-24px;width:200px;height:auto;background: #fff;
+     padding:20px 0px;  box-shadow: 0 3px 6px rgba(246, 206, 7, 0.1); padding:10px 0px; z-index:100; }
+.dropdownMenu li{width:100% !important; list-style: none; margin: 0px !important;}
+
+
+.dropdownMenu li button{width: 100% !important;text-align:left !important;
+ justify-content:flex-start !important; color:rgba(26, 23, 23, 0.7) !important; text-transform: 
+ capitalize !important; font-size:18px !important; padding:12px 15px ! important; }
+
+
+ .dropdownMenu li button svg{opacity:0.7; margin-right: 8px !important;}
+ .dropdownMenu li button :hover{background: #fff !important;}
